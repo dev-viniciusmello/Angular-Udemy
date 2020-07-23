@@ -1,0 +1,11 @@
+.sidenav {
+    background-color:  palegreen;
+}
+
+.sidenav a {
+    color:black;
+}
+
+.sidenav i {
+    padding: 10px;
+}

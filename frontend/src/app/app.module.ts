@@ -6,9 +6,9 @@ import { HeaderComponent } from './components/templates/header/header.component'
 import { AppComponent } from './app.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './components/templates/footer/footer.component';
-import { NavComponent } from './components/template/nav/nav.component';
+import { NavComponent } from './components/templates/nav/nav.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatListModule, MatList} from '@angular/material/list';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -22,8 +22,8 @@ import { MatListModule, MatList} from '@angular/material/list';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatListModule,
-    MatList
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

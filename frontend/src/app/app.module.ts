@@ -15,6 +15,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { ResDirective } from './directives/res.directive';
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 // DENTRO DE DECLARATIONS, COLOCAMOS OS COMPONENTES, DIRETIVAS E OS PIPES
 
@@ -28,7 +29,8 @@ import { ForDirective } from './directives/for.directive';
     ProductCrudComponent,
     ResDirective,
     RedDirective,
-    ForDirective
+    ForDirective,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,

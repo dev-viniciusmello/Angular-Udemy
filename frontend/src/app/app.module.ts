@@ -16,6 +16,7 @@ import { ResDirective } from './directives/res.directive';
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { MatButtonModule } from '@angular/material/button';
 
 // DENTRO DE DECLARATIONS, COLOCAMOS OS COMPONENTES, DIRETIVAS E OS PIPES
 
@@ -39,7 +40,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule, 
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
